@@ -13,6 +13,7 @@
 #import "CAShapeLayerViewController.h"
 #import "CAScrollLayerViewController.h"
 #import "CATiledLayerViewController.h"
+#import "CAEmitterLayerViewController.h"
 
 @interface LLYViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -32,7 +33,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer"];
+    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer",@"CAEmitterCell"];
 
 }
 
@@ -83,6 +84,10 @@
     }
     else if ([titleStr isEqualToString:@"CATiledLayer"]){
         CATiledLayerViewController *vc = [[CATiledLayerViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"CAEmitterCell"]){
+        CAEmitterLayerViewController *vc = [[CAEmitterLayerViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     
