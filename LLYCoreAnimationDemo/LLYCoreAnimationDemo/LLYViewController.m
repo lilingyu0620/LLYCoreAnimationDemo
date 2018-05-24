@@ -11,6 +11,8 @@
 #import "CAGradientLayerViewController.h"
 #import "MaskLayerViewController.h"
 #import "CAShapeLayerViewController.h"
+#import "CAScrollLayerViewController.h"
+#import "CATiledLayerViewController.h"
 
 @interface LLYViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -30,7 +32,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer"];
+    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer"];
 
 }
 
@@ -73,6 +75,14 @@
     }
     else if ([titleStr isEqualToString:@"CAShapeLayer"]){
         CAShapeLayerViewController *vc = [[CAShapeLayerViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"CAScrollLayer"]){
+        CAScrollLayerViewController *vc = [[CAScrollLayerViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"CATiledLayer"]){
+        CATiledLayerViewController *vc = [[CATiledLayerViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

@@ -30,21 +30,27 @@
     layer.frame = self.mView.bounds;
     layer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"wk.jpg"].CGImage);
     layer.contentsGravity = kCAGravityResizeAspectFill;
+    layer.doubleSided = YES;
     layer.masksToBounds = YES;
     [repLayer addSublayer:layer];
     
     //反射视图的数量
-    repLayer.instanceCount = 2;
+    repLayer.instanceCount = 4;
     
     CATransform3D transform = CATransform3DIdentity;
     CGFloat verticalOffset = self.mView.bounds.size.height + 2;
     transform = CATransform3DTranslate(transform, 0, verticalOffset, 0);
 //    transform = CATransform3DScale(transform, 1, -1, 0);
+    
+    //绕x转180后只能显示第一个镜像。。。绕y转180可以显示完全。。。。。。
     transform = CATransform3DRotate(transform, M_PI, 1, 0, 0);
+    
+//    transform = CATransform3DRotate(transform, M_PI, 0, 1, 0);
+
     
     repLayer.instanceTransform = transform;
     
-    repLayer.instanceAlphaOffset = -0.6;
+    repLayer.instanceAlphaOffset = -0.3;
 }
 
 - (void)didReceiveMemoryWarning {
