@@ -16,6 +16,7 @@
 #import "CAEmitterLayerViewController.h"
 #import "AVPlayerLayerViewController.h"
 #import "PresentationLayerViewController.h"
+#import "CustomTransitionAnimationViewController.h"
 
 @interface LLYViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -35,7 +36,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer",@"CAEmitterCell",@"AVPlayerLayer",@"PresentationLayer"];
+    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer",@"CAEmitterCell",@"AVPlayerLayer",@"PresentationLayer",@"CustomTransitionAnimation"];
 
 }
 
@@ -98,6 +99,10 @@
     }
     else if ([titleStr isEqualToString:@"PresentationLayer"]){
         PresentationLayerViewController *vc = [[PresentationLayerViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"CustomTransitionAnimation"]){
+        CustomTransitionAnimationViewController *vc = [[CustomTransitionAnimationViewController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

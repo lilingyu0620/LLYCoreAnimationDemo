@@ -15,6 +15,8 @@
 		0A7B31BA20B7AA37001076FA /* AVPlayerLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */; };
 		0A7B31BE20B7FBF4001076FA /* PresentationLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31BC20B7FBF4001076FA /* PresentationLayerViewController.m */; };
 		0A7B31BF20B7FBF4001076FA /* PresentationLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31BD20B7FBF4001076FA /* PresentationLayerViewController.xib */; };
+		0A7B31C320B815FF001076FA /* CustomTransitionAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31C120B815FF001076FA /* CustomTransitionAnimationViewController.m */; };
+		0A7B31C420B815FF001076FA /* CustomTransitionAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31C220B815FF001076FA /* CustomTransitionAnimationViewController.xib */; };
 		0A7B56F620B65276001EDB55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B56F520B65276001EDB55 /* AppDelegate.m */; };
 		0A7B56FC20B65276001EDB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B56FA20B65276001EDB55 /* Main.storyboard */; };
 		0A7B56FE20B65276001EDB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B56FD20B65276001EDB55 /* Assets.xcassets */; };
@@ -133,6 +135,9 @@
 		0A7B31BB20B7FBF4001076FA /* PresentationLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentationLayerViewController.h; sourceTree = "<group>"; };
 		0A7B31BC20B7FBF4001076FA /* PresentationLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentationLayerViewController.m; sourceTree = "<group>"; };
 		0A7B31BD20B7FBF4001076FA /* PresentationLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentationLayerViewController.xib; sourceTree = "<group>"; };
+		0A7B31C020B815FF001076FA /* CustomTransitionAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTransitionAnimationViewController.h; sourceTree = "<group>"; };
+		0A7B31C120B815FF001076FA /* CustomTransitionAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionAnimationViewController.m; sourceTree = "<group>"; };
+		0A7B31C220B815FF001076FA /* CustomTransitionAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTransitionAnimationViewController.xib; sourceTree = "<group>"; };
 		0A7B56F120B65276001EDB55 /* LLYCoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYCoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B56F420B65276001EDB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A7B56F520B65276001EDB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -350,6 +355,9 @@
 				0A7B31BB20B7FBF4001076FA /* PresentationLayerViewController.h */,
 				0A7B31BC20B7FBF4001076FA /* PresentationLayerViewController.m */,
 				0A7B31BD20B7FBF4001076FA /* PresentationLayerViewController.xib */,
+				0A7B31C020B815FF001076FA /* CustomTransitionAnimationViewController.h */,
+				0A7B31C120B815FF001076FA /* CustomTransitionAnimationViewController.m */,
+				0A7B31C220B815FF001076FA /* CustomTransitionAnimationViewController.xib */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -627,6 +635,7 @@
 				0A7B57C820B6B00C001EDB55 /* Snowman_06_03.jpg in Resources */,
 				0A7B579020B6B00C001EDB55 /* Snowman_01_05.jpg in Resources */,
 				0A7B573320B65CD0001EDB55 /* wk.JPG in Resources */,
+				0A7B31C420B815FF001076FA /* CustomTransitionAnimationViewController.xib in Resources */,
 				0A7B578D20B6B00C001EDB55 /* Snowman_03_03.jpg in Resources */,
 				0A7B57A020B6B00C001EDB55 /* Snowman_05_02.jpg in Resources */,
 				0A7B579E20B6B00C001EDB55 /* Snowman_07_05.jpg in Resources */,
@@ -663,6 +672,7 @@
 				0A7B56F620B65276001EDB55 /* AppDelegate.m in Sources */,
 				0A7B573720B663CC001EDB55 /* CAGradientLayerViewController.m in Sources */,
 				0A7B573F20B666DF001EDB55 /* MaskLayerViewController.m in Sources */,
+				0A7B31C320B815FF001076FA /* CustomTransitionAnimationViewController.m in Sources */,
 				0A689C9B20B6D95900A66E2F /* CAEmitterLayerViewController.m in Sources */,
 				0A7B572F20B65BB0001EDB55 /* CAReplicatorLayerViewController.m in Sources */,
 				0A7B574920B69CC4001EDB55 /* CAScrollLayerViewController.m in Sources */,
