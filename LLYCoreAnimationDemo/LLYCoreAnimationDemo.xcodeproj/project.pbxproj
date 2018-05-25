@@ -13,6 +13,8 @@
 		0A7B31B520B7AA20001076FA /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31B420B7AA20001076FA /* Ship.mp4 */; };
 		0A7B31B920B7AA37001076FA /* AVPlayerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31B720B7AA37001076FA /* AVPlayerLayerViewController.m */; };
 		0A7B31BA20B7AA37001076FA /* AVPlayerLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */; };
+		0A7B31BE20B7FBF4001076FA /* PresentationLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31BC20B7FBF4001076FA /* PresentationLayerViewController.m */; };
+		0A7B31BF20B7FBF4001076FA /* PresentationLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31BD20B7FBF4001076FA /* PresentationLayerViewController.xib */; };
 		0A7B56F620B65276001EDB55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B56F520B65276001EDB55 /* AppDelegate.m */; };
 		0A7B56FC20B65276001EDB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B56FA20B65276001EDB55 /* Main.storyboard */; };
 		0A7B56FE20B65276001EDB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B56FD20B65276001EDB55 /* Assets.xcassets */; };
@@ -128,6 +130,9 @@
 		0A7B31B620B7AA37001076FA /* AVPlayerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerViewController.h; sourceTree = "<group>"; };
 		0A7B31B720B7AA37001076FA /* AVPlayerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerViewController.m; sourceTree = "<group>"; };
 		0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVPlayerLayerViewController.xib; sourceTree = "<group>"; };
+		0A7B31BB20B7FBF4001076FA /* PresentationLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresentationLayerViewController.h; sourceTree = "<group>"; };
+		0A7B31BC20B7FBF4001076FA /* PresentationLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresentationLayerViewController.m; sourceTree = "<group>"; };
+		0A7B31BD20B7FBF4001076FA /* PresentationLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentationLayerViewController.xib; sourceTree = "<group>"; };
 		0A7B56F120B65276001EDB55 /* LLYCoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYCoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B56F420B65276001EDB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A7B56F520B65276001EDB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -342,6 +347,9 @@
 				0A7B31B620B7AA37001076FA /* AVPlayerLayerViewController.h */,
 				0A7B31B720B7AA37001076FA /* AVPlayerLayerViewController.m */,
 				0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */,
+				0A7B31BB20B7FBF4001076FA /* PresentationLayerViewController.h */,
+				0A7B31BC20B7FBF4001076FA /* PresentationLayerViewController.m */,
+				0A7B31BD20B7FBF4001076FA /* PresentationLayerViewController.xib */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -554,6 +562,7 @@
 				0A7B57B820B6B00C001EDB55 /* Snowman_02_04.jpg in Resources */,
 				0A7B57CA20B6B00C001EDB55 /* Snowman_04_07.jpg in Resources */,
 				0A7B579920B6B00C001EDB55 /* Snowman_03_06.jpg in Resources */,
+				0A7B31BF20B7FBF4001076FA /* PresentationLayerViewController.xib in Resources */,
 				0A7B578F20B6B00C001EDB55 /* Snowman_01_07.jpg in Resources */,
 				0A689C9E20B6D9AD00A66E2F /* Spark.png in Resources */,
 				0A7B57A520B6B00C001EDB55 /* Snowman_07_02.jpg in Resources */,
@@ -649,6 +658,7 @@
 				0A7B31B920B7AA37001076FA /* AVPlayerLayerViewController.m in Sources */,
 				0A7B574420B66F57001EDB55 /* CAShapeLayerViewController.m in Sources */,
 				0A7B572A20B655F5001EDB55 /* LLYViewController.m in Sources */,
+				0A7B31BE20B7FBF4001076FA /* PresentationLayerViewController.m in Sources */,
 				0A7B57CF20B6B27A001EDB55 /* CATiledLayerViewController.m in Sources */,
 				0A7B56F620B65276001EDB55 /* AppDelegate.m in Sources */,
 				0A7B573720B663CC001EDB55 /* CAGradientLayerViewController.m in Sources */,
