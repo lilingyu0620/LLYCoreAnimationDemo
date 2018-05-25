@@ -10,6 +10,9 @@
 		0A689C9B20B6D95900A66E2F /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A689C9920B6D95900A66E2F /* CAEmitterLayerViewController.m */; };
 		0A689C9C20B6D95900A66E2F /* CAEmitterLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A689C9A20B6D95900A66E2F /* CAEmitterLayerViewController.xib */; };
 		0A689C9E20B6D9AD00A66E2F /* Spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A689C9D20B6D9AD00A66E2F /* Spark.png */; };
+		0A7B31B520B7AA20001076FA /* Ship.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31B420B7AA20001076FA /* Ship.mp4 */; };
+		0A7B31B920B7AA37001076FA /* AVPlayerLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B31B720B7AA37001076FA /* AVPlayerLayerViewController.m */; };
+		0A7B31BA20B7AA37001076FA /* AVPlayerLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */; };
 		0A7B56F620B65276001EDB55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B56F520B65276001EDB55 /* AppDelegate.m */; };
 		0A7B56FC20B65276001EDB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B56FA20B65276001EDB55 /* Main.storyboard */; };
 		0A7B56FE20B65276001EDB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B56FD20B65276001EDB55 /* Assets.xcassets */; };
@@ -121,6 +124,10 @@
 		0A689C9920B6D95900A66E2F /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
 		0A689C9A20B6D95900A66E2F /* CAEmitterLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CAEmitterLayerViewController.xib; sourceTree = "<group>"; };
 		0A689C9D20B6D9AD00A66E2F /* Spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spark.png; sourceTree = "<group>"; };
+		0A7B31B420B7AA20001076FA /* Ship.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.mp4; sourceTree = "<group>"; };
+		0A7B31B620B7AA37001076FA /* AVPlayerLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerViewController.h; sourceTree = "<group>"; };
+		0A7B31B720B7AA37001076FA /* AVPlayerLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerViewController.m; sourceTree = "<group>"; };
+		0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVPlayerLayerViewController.xib; sourceTree = "<group>"; };
 		0A7B56F120B65276001EDB55 /* LLYCoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLYCoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7B56F420B65276001EDB55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A7B56F520B65276001EDB55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -332,6 +339,9 @@
 				0A689C9820B6D95900A66E2F /* CAEmitterLayerViewController.h */,
 				0A689C9920B6D95900A66E2F /* CAEmitterLayerViewController.m */,
 				0A689C9A20B6D95900A66E2F /* CAEmitterLayerViewController.xib */,
+				0A7B31B620B7AA37001076FA /* AVPlayerLayerViewController.h */,
+				0A7B31B720B7AA37001076FA /* AVPlayerLayerViewController.m */,
+				0A7B31B820B7AA37001076FA /* AVPlayerLayerViewController.xib */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -339,6 +349,7 @@
 		0A7B573120B65CD0001EDB55 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0A7B31B420B7AA20001076FA /* Ship.mp4 */,
 				0A689C9D20B6D9AD00A66E2F /* Spark.png */,
 				0A7B574B20B6B00C001EDB55 /* Images */,
 				0A7B573220B65CD0001EDB55 /* wk.JPG */,
@@ -566,6 +577,7 @@
 				0A7B57C920B6B00C001EDB55 /* Snowman_04_06.jpg in Resources */,
 				0A7B57C620B6B00C001EDB55 /* Snowman_04_04.jpg in Resources */,
 				0A7B579F20B6B00C001EDB55 /* Snowman_05_00.jpg in Resources */,
+				0A7B31BA20B7AA37001076FA /* AVPlayerLayerViewController.xib in Resources */,
 				0A7B57B320B6B00C001EDB55 /* Snowman_02_03.jpg in Resources */,
 				0A7B57C720B6B00C001EDB55 /* Snowman_06_01.jpg in Resources */,
 				0A7B574520B66F57001EDB55 /* CAShapeLayerViewController.xib in Resources */,
@@ -584,6 +596,7 @@
 				0A7B57BF20B6B00C001EDB55 /* Snowman_06_07.jpg in Resources */,
 				0A7B57C220B6B00C001EDB55 /* Snowman_04_01.jpg in Resources */,
 				0A7B57AF20B6B00C001EDB55 /* Snowman_02_00.jpg in Resources */,
+				0A7B31B520B7AA20001076FA /* Ship.mp4 in Resources */,
 				0A7B579420B6B00C001EDB55 /* Snowman_01_00.jpg in Resources */,
 				0A7B57BE20B6B00C001EDB55 /* Snowman_04_02.jpg in Resources */,
 				0A7B573820B663CC001EDB55 /* CAGradientLayerViewController.xib in Resources */,
@@ -633,6 +646,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7B570420B65276001EDB55 /* main.m in Sources */,
+				0A7B31B920B7AA37001076FA /* AVPlayerLayerViewController.m in Sources */,
 				0A7B574420B66F57001EDB55 /* CAShapeLayerViewController.m in Sources */,
 				0A7B572A20B655F5001EDB55 /* LLYViewController.m in Sources */,
 				0A7B57CF20B6B27A001EDB55 /* CATiledLayerViewController.m in Sources */,
