@@ -104,6 +104,17 @@
 		0A7B57CF20B6B27A001EDB55 /* CATiledLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B57CD20B6B27A001EDB55 /* CATiledLayerViewController.m */; };
 		0A7B57D020B6B27A001EDB55 /* CATiledLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A7B57CE20B6B27A001EDB55 /* CATiledLayerViewController.xib */; };
 		0A7B57D320B6B4AE001EDB55 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A7B57D220B6B4AE001EDB55 /* QuartzCore.framework */; };
+		0A9E6D2820E9C739005FCAB9 /* LLYSliceAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1A20E9C738005FCAB9 /* LLYSliceAnimationVC.m */; };
+		0A9E6D2920E9C739005FCAB9 /* LLYBreatheAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1B20E9C738005FCAB9 /* LLYBreatheAnimationVC.m */; };
+		0A9E6D2A20E9C739005FCAB9 /* LLYBreatheAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1C20E9C738005FCAB9 /* LLYBreatheAnimationVC.xib */; };
+		0A9E6D2B20E9C739005FCAB9 /* LLYLoadingAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1D20E9C738005FCAB9 /* LLYLoadingAnimationVC.m */; };
+		0A9E6D2C20E9C739005FCAB9 /* LLYWaterDotAniamtionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1E20E9C738005FCAB9 /* LLYWaterDotAniamtionVC.xib */; };
+		0A9E6D2D20E9C739005FCAB9 /* LLYWaterDotAniamtionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D1F20E9C738005FCAB9 /* LLYWaterDotAniamtionVC.m */; };
+		0A9E6D2E20E9C739005FCAB9 /* LLYSliceAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E6D2020E9C738005FCAB9 /* LLYSliceAnimationVC.xib */; };
+		0A9E6D2F20E9C739005FCAB9 /* LLYLoadingAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E6D2120E9C738005FCAB9 /* LLYLoadingAnimationVC.xib */; };
+		0A9E6D3020E9C739005FCAB9 /* LLYPathAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9E6D2320E9C738005FCAB9 /* LLYPathAnimationVC.m */; };
+		0A9E6D3120E9C739005FCAB9 /* LLYPathAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E6D2720E9C738005FCAB9 /* LLYPathAnimationVC.xib */; };
+		0A9E6D3320E9C994005FCAB9 /* fly1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A9E6D3220E9C993005FCAB9 /* fly1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +250,22 @@
 		0A7B57CD20B6B27A001EDB55 /* CATiledLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerViewController.m; sourceTree = "<group>"; };
 		0A7B57CE20B6B27A001EDB55 /* CATiledLayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CATiledLayerViewController.xib; sourceTree = "<group>"; };
 		0A7B57D220B6B4AE001EDB55 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0A9E6D1920E9C738005FCAB9 /* LLYPathAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYPathAnimationVC.h; sourceTree = "<group>"; };
+		0A9E6D1A20E9C738005FCAB9 /* LLYSliceAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYSliceAnimationVC.m; sourceTree = "<group>"; };
+		0A9E6D1B20E9C738005FCAB9 /* LLYBreatheAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYBreatheAnimationVC.m; sourceTree = "<group>"; };
+		0A9E6D1C20E9C738005FCAB9 /* LLYBreatheAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLYBreatheAnimationVC.xib; sourceTree = "<group>"; };
+		0A9E6D1D20E9C738005FCAB9 /* LLYLoadingAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYLoadingAnimationVC.m; sourceTree = "<group>"; };
+		0A9E6D1E20E9C738005FCAB9 /* LLYWaterDotAniamtionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLYWaterDotAniamtionVC.xib; sourceTree = "<group>"; };
+		0A9E6D1F20E9C738005FCAB9 /* LLYWaterDotAniamtionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYWaterDotAniamtionVC.m; sourceTree = "<group>"; };
+		0A9E6D2020E9C738005FCAB9 /* LLYSliceAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLYSliceAnimationVC.xib; sourceTree = "<group>"; };
+		0A9E6D2120E9C738005FCAB9 /* LLYLoadingAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLYLoadingAnimationVC.xib; sourceTree = "<group>"; };
+		0A9E6D2220E9C738005FCAB9 /* LLYSliceAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYSliceAnimationVC.h; sourceTree = "<group>"; };
+		0A9E6D2320E9C738005FCAB9 /* LLYPathAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYPathAnimationVC.m; sourceTree = "<group>"; };
+		0A9E6D2420E9C738005FCAB9 /* LLYBreatheAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYBreatheAnimationVC.h; sourceTree = "<group>"; };
+		0A9E6D2520E9C738005FCAB9 /* LLYLoadingAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYLoadingAnimationVC.h; sourceTree = "<group>"; };
+		0A9E6D2620E9C738005FCAB9 /* LLYWaterDotAniamtionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYWaterDotAniamtionVC.h; sourceTree = "<group>"; };
+		0A9E6D2720E9C738005FCAB9 /* LLYPathAnimationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLYPathAnimationVC.xib; sourceTree = "<group>"; };
+		0A9E6D3220E9C993005FCAB9 /* fly1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fly1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,6 +355,7 @@
 		0A7B572620B652B3001EDB55 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				0A9E6D1820E9C738005FCAB9 /* animations */,
 				0A7B572C20B65BB0001EDB55 /* CAReplicatorLayerViewController.h */,
 				0A7B572D20B65BB0001EDB55 /* CAReplicatorLayerViewController.m */,
 				0A7B572E20B65BB0001EDB55 /* CAReplicatorLayerViewController.xib */,
@@ -365,6 +393,7 @@
 		0A7B573120B65CD0001EDB55 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0A9E6D3220E9C993005FCAB9 /* fly1.png */,
 				0A7B31B420B7AA20001076FA /* Ship.mp4 */,
 				0A689C9D20B6D9AD00A66E2F /* Spark.png */,
 				0A7B574B20B6B00C001EDB55 /* Images */,
@@ -450,6 +479,28 @@
 				0A7B57D220B6B4AE001EDB55 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A9E6D1820E9C738005FCAB9 /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				0A9E6D2420E9C738005FCAB9 /* LLYBreatheAnimationVC.h */,
+				0A9E6D1B20E9C738005FCAB9 /* LLYBreatheAnimationVC.m */,
+				0A9E6D1C20E9C738005FCAB9 /* LLYBreatheAnimationVC.xib */,
+				0A9E6D2520E9C738005FCAB9 /* LLYLoadingAnimationVC.h */,
+				0A9E6D1D20E9C738005FCAB9 /* LLYLoadingAnimationVC.m */,
+				0A9E6D2120E9C738005FCAB9 /* LLYLoadingAnimationVC.xib */,
+				0A9E6D1920E9C738005FCAB9 /* LLYPathAnimationVC.h */,
+				0A9E6D2320E9C738005FCAB9 /* LLYPathAnimationVC.m */,
+				0A9E6D2720E9C738005FCAB9 /* LLYPathAnimationVC.xib */,
+				0A9E6D2220E9C738005FCAB9 /* LLYSliceAnimationVC.h */,
+				0A9E6D1A20E9C738005FCAB9 /* LLYSliceAnimationVC.m */,
+				0A9E6D2020E9C738005FCAB9 /* LLYSliceAnimationVC.xib */,
+				0A9E6D2620E9C738005FCAB9 /* LLYWaterDotAniamtionVC.h */,
+				0A9E6D1F20E9C738005FCAB9 /* LLYWaterDotAniamtionVC.m */,
+				0A9E6D1E20E9C738005FCAB9 /* LLYWaterDotAniamtionVC.xib */,
+			);
+			path = animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,6 +621,7 @@
 				0A7B57B820B6B00C001EDB55 /* Snowman_02_04.jpg in Resources */,
 				0A7B57CA20B6B00C001EDB55 /* Snowman_04_07.jpg in Resources */,
 				0A7B579920B6B00C001EDB55 /* Snowman_03_06.jpg in Resources */,
+				0A9E6D2F20E9C739005FCAB9 /* LLYLoadingAnimationVC.xib in Resources */,
 				0A7B31BF20B7FBF4001076FA /* PresentationLayerViewController.xib in Resources */,
 				0A7B578F20B6B00C001EDB55 /* Snowman_01_07.jpg in Resources */,
 				0A689C9E20B6D9AD00A66E2F /* Spark.png in Resources */,
@@ -594,6 +646,7 @@
 				0A7B57C920B6B00C001EDB55 /* Snowman_04_06.jpg in Resources */,
 				0A7B57C620B6B00C001EDB55 /* Snowman_04_04.jpg in Resources */,
 				0A7B579F20B6B00C001EDB55 /* Snowman_05_00.jpg in Resources */,
+				0A9E6D2C20E9C739005FCAB9 /* LLYWaterDotAniamtionVC.xib in Resources */,
 				0A7B31BA20B7AA37001076FA /* AVPlayerLayerViewController.xib in Resources */,
 				0A7B57B320B6B00C001EDB55 /* Snowman_02_03.jpg in Resources */,
 				0A7B57C720B6B00C001EDB55 /* Snowman_06_01.jpg in Resources */,
@@ -606,9 +659,11 @@
 				0A7B57B620B6B00C001EDB55 /* Snowman_00_03.jpg in Resources */,
 				0A7B57AD20B6B00C001EDB55 /* Snowman_00_04.jpg in Resources */,
 				0A7B57C020B6B00C001EDB55 /* Snowman_06_05.jpg in Resources */,
+				0A9E6D3120E9C739005FCAB9 /* LLYPathAnimationVC.xib in Resources */,
 				0A7B57A120B6B00C001EDB55 /* Snowman_07_07.jpg in Resources */,
 				0A7B57C120B6B00C001EDB55 /* Snowman_04_00.jpg in Resources */,
 				0A7B579820B6B00C001EDB55 /* Snowman_01_03.jpg in Resources */,
+				0A9E6D2A20E9C739005FCAB9 /* LLYBreatheAnimationVC.xib in Resources */,
 				0A7B57B720B6B00C001EDB55 /* Snowman_02_06.jpg in Resources */,
 				0A7B57BF20B6B00C001EDB55 /* Snowman_06_07.jpg in Resources */,
 				0A7B57C220B6B00C001EDB55 /* Snowman_04_01.jpg in Resources */,
@@ -618,6 +673,7 @@
 				0A7B57BE20B6B00C001EDB55 /* Snowman_04_02.jpg in Resources */,
 				0A7B573820B663CC001EDB55 /* CAGradientLayerViewController.xib in Resources */,
 				0A7B579220B6B00C001EDB55 /* Snowman_03_01.jpg in Resources */,
+				0A9E6D2E20E9C739005FCAB9 /* LLYSliceAnimationVC.xib in Resources */,
 				0A7B579720B6B00C001EDB55 /* Snowman_01_01.jpg in Resources */,
 				0A7B57B220B6B00C001EDB55 /* Snowman_00_06.jpg in Resources */,
 				0A7B56FE20B65276001EDB55 /* Assets.xcassets in Resources */,
@@ -630,6 +686,7 @@
 				0A7B57A420B6B00C001EDB55 /* Snowman_05_07.jpg in Resources */,
 				0A7B579C20B6B00C001EDB55 /* Snowman_05_01.jpg in Resources */,
 				0A7B57A820B6B00C001EDB55 /* Snowman_05_04.jpg in Resources */,
+				0A9E6D3320E9C994005FCAB9 /* fly1.png in Resources */,
 				0A7B57A320B6B00C001EDB55 /* Snowman_05_03.jpg in Resources */,
 				0A7B56FC20B65276001EDB55 /* Main.storyboard in Resources */,
 				0A7B57C820B6B00C001EDB55 /* Snowman_06_03.jpg in Resources */,
@@ -664,18 +721,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A7B570420B65276001EDB55 /* main.m in Sources */,
+				0A9E6D2920E9C739005FCAB9 /* LLYBreatheAnimationVC.m in Sources */,
 				0A7B31B920B7AA37001076FA /* AVPlayerLayerViewController.m in Sources */,
 				0A7B574420B66F57001EDB55 /* CAShapeLayerViewController.m in Sources */,
 				0A7B572A20B655F5001EDB55 /* LLYViewController.m in Sources */,
 				0A7B31BE20B7FBF4001076FA /* PresentationLayerViewController.m in Sources */,
 				0A7B57CF20B6B27A001EDB55 /* CATiledLayerViewController.m in Sources */,
+				0A9E6D2820E9C739005FCAB9 /* LLYSliceAnimationVC.m in Sources */,
 				0A7B56F620B65276001EDB55 /* AppDelegate.m in Sources */,
 				0A7B573720B663CC001EDB55 /* CAGradientLayerViewController.m in Sources */,
+				0A9E6D3020E9C739005FCAB9 /* LLYPathAnimationVC.m in Sources */,
+				0A9E6D2B20E9C739005FCAB9 /* LLYLoadingAnimationVC.m in Sources */,
 				0A7B573F20B666DF001EDB55 /* MaskLayerViewController.m in Sources */,
 				0A7B31C320B815FF001076FA /* CustomTransitionAnimationViewController.m in Sources */,
 				0A689C9B20B6D95900A66E2F /* CAEmitterLayerViewController.m in Sources */,
 				0A7B572F20B65BB0001EDB55 /* CAReplicatorLayerViewController.m in Sources */,
 				0A7B574920B69CC4001EDB55 /* CAScrollLayerViewController.m in Sources */,
+				0A9E6D2D20E9C739005FCAB9 /* LLYWaterDotAniamtionVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,6 +903,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYCoreAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYCoreAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -855,6 +918,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PW2BL84NY9;
 				INFOPLIST_FILE = LLYCoreAnimationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lly.LLYCoreAnimationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

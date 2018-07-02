@@ -18,6 +18,12 @@
 #import "PresentationLayerViewController.h"
 #import "CustomTransitionAnimationViewController.h"
 
+#import "LLYBreatheAnimationVC.h"
+#import "LLYLoadingAnimationVC.h"
+#import "LLYPathAnimationVC.h"
+#import "LLYSliceAnimationVC.h"
+#import "LLYWaterDotAniamtionVC.h"
+
 @interface LLYViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -36,7 +42,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:NSStringFromClass([UITableViewCell class])];
-    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer",@"CAEmitterCell",@"AVPlayerLayer",@"PresentationLayer",@"CustomTransitionAnimation"];
+    self.titleArray = @[@"CAReplicatorLayer",@"CAGradientLayer",@"MaskLayer",@"LoadingAnimation",@"CAShapeLayer",@"CAScrollLayer",@"CATiledLayer",@"CAEmitterCell",@"AVPlayerLayer",@"PresentationLayer",@"CustomTransitionAnimation",@"BreatheAnimation",@"PathAnimation",@"SliceAnimation",@"WaterDotAniamtion"];
 
 }
 
@@ -103,6 +109,26 @@
     }
     else if ([titleStr isEqualToString:@"CustomTransitionAnimation"]){
         CustomTransitionAnimationViewController *vc = [[CustomTransitionAnimationViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"BreatheAnimation"]){
+        LLYBreatheAnimationVC *vc = [[LLYBreatheAnimationVC alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"LoadingAnimation"]){
+        LLYLoadingAnimationVC *vc = [[LLYLoadingAnimationVC alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"PathAnimation"]){
+        LLYPathAnimationVC *vc = [[LLYPathAnimationVC alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"SliceAnimation"]){
+        LLYSliceAnimationVC *vc = [[LLYSliceAnimationVC alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([titleStr isEqualToString:@"WaterDotAniamtion"]){
+        LLYWaterDotAniamtionVC *vc = [[LLYWaterDotAniamtionVC alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

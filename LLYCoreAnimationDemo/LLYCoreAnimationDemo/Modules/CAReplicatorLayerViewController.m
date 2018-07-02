@@ -43,9 +43,9 @@
 //    transform = CATransform3DScale(transform, 1, -1, 0);
     
     //绕x转180后只能显示第一个镜像。。。绕y转180可以显示完全。。。。。。
-    transform = CATransform3DRotate(transform, M_PI, 1, 0, 0);
+//    transform = CATransform3DRotate(transform, M_PI, 1, 0, 0);
     
-//    transform = CATransform3DRotate(transform, M_PI, 0, 1, 0);
+    transform = CATransform3DRotate(transform, M_PI, 0, 1, 0);
 
     
     repLayer.instanceTransform = transform;
